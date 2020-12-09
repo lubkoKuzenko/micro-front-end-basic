@@ -11,7 +11,7 @@ module.exports = {
       name: "app_one",
       filename: "remoteEntry.js",
       exposes: {
-        "./AppOneIndex": "./src/index"
+        "./AppOneIndex": "./src/main"
       },
       shared: {
         faker: {
