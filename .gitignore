@@ -1,0 +1,21 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/app_one/node_modules
+/app_two/node_modules
+/shell/node_modules
+/app_one/package-lock.json
+/app_two/package-lock.json
+/shell/package-lock.json
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# System Files
+.DS_Store
+Thumbs.db
