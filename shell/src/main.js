@@ -1,6 +1,7 @@
-import { mount } from "appOne/AppOneIndex";
-import "appTwo/AppTwoIndex";
+import { mount as AppOneMount } from "appOne/AppOneIndex";
+import { mount as AppTwoMount } from "appTwo/AppTwoIndex";
 
 console.log("container");
 
-mount(document.querySelector(".products"));
+AppOneMount(document.querySelector(".products"));
+AppTwoMount(document.querySelector(".cart"));
